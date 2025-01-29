@@ -130,6 +130,10 @@ footer a:hover {
     .collection img {
         width: 200px;
     }
+    .collection-photos {
+        overflow-x: auto;
+        gap: 1rem;
+    }
     .featured img {
         width: 200px;
     }
