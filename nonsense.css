@@ -47,7 +47,6 @@ body {
 .collection-photos {
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: auto, auto, auto, auto; */
 }
 
 .nap .nal {
@@ -137,6 +136,11 @@ footer a:hover {
     .featured img {
         width: 200px;
     }
+    .stats {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -150,7 +154,7 @@ footer a:hover {
         border-radius: 10px;
     }
     .carousel {
-        height: 50vh;
+        height: 30vh;
     }
     .carousel-item img {
         height: 30vh;
@@ -170,6 +174,7 @@ footer a:hover {
         width: 230px;
     }
     .collection-photos {
+        display: flex;
         overflow-x: auto;
         gap: 1rem;
     }
